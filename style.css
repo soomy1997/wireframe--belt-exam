@@ -13,7 +13,7 @@ body {
     font-size: 18px;
   }
 #navbar{
-    background-color: #454545;
+    background-color: #c0cbff;
     display: flex;
     padding: 1rem 0;
     align-items: center;
@@ -29,6 +29,9 @@ body {
 }
 #navbar li{
     float: left;
+}
+#navbar li:hover{
+    background-color: #ffc0cb;
 }
 #navbar li a {
     display: inline-block;
@@ -57,11 +60,14 @@ body {
 .portfolio-box{
     height: 350px;
     max-width: 100%;
-    background-color: black;
+    background-color: #ffc0cb;
     margin-bottom: 50px;
 }
 #portfolio-content img{
     height: 300px;
+}
+#portfolio-content img:hover{
+    background-color: #c0ebff;
 }
 .project {
    display: inline-block;
@@ -119,11 +125,11 @@ ol {
     transition: 0.2s;
   }
   ol li:hover {
-    background: #ddd;
+    background: #d9d9d9;
   }
   
   ol li.checked {
-    background: #888;
+    background: #c0ebff;
     color: #fff;
     text-decoration: line-through;
   }
