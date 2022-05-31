@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+body {
+    background-color: white;
+    width: auto;
+    position: relative;
+    padding-bottom: 6rem;
+    max-height: 100%;
+    font-size: 18px;
+  }
+#navbar{
+    background-color: #454545;
+    display: flex;
+    padding: 1rem 0;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: left;
+}
+#navbar ul{
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#navbar li{
+    float: left;
+}
+#navbar li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 60px;
+    font-size: 17px;
+  }
+.profile{
+    padding: 130px 180px 40px;
+    display: flex;
+}
+#profile-content{
+    padding-left: 100px;
+}
+#avatar img{
+    height: 300px;
+    width: 300px;
+}
+#title{
+    padding-bottom: 15px;
+}
+#title h1{
+    font-weight: normal;
+}
+.portfolio-box{
+    height: 350px;
+    max-width: 100%;
+    background-color: black;
+    margin-bottom: 50px;
+}
+#portfolio-content img{
+    height: 300px;
+}
+.project {
+   display: inline-block;
+}
+#project-name{
+    color: white;
+    position: absolute;
+    justify-content: space-evenly;
+    padding-left: 80px;
+}
+#portfolio-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+.skills-box{
+padding: 0px 300px 300px;
+}
+.skills-heading{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.right-heading{
+    display: flex;
+}
+#input{
+   margin-right: 2rem;
+   width: 200px;
+   border-radius: 0;
+   width: 75%;
+   padding: 10px;
+   float: left;
+   font-size: 16px;
+}
+.btn{
+    width: 100px;
+    background: #d9d9d9;
+    color: #555;
+    float: right;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+ol {
+    margin: 0;
+    padding: 0;
+  }
+  ol li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    font-size: 18px;
+    transition: 0.2s;
+  }
+  ol li:hover {
+    background: #ddd;
+  }
+  
+  ol li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+  }
+
+/*    CONTACT US    */
+.Container{
+    background-color: lightpink;
+    width: 100%;
+    height: 800px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Container h1{
+    display: inline-block;
+}
+.form{
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+display: flex;
+}
+.form h1{
+    padding-bottom: 60px;
+}
+#submitBtn{
+    width: 300px;
+    height: 30px;
+    background: #d9d9d9;
+    color: #555;
+    border-radius: 0;
+}
+.form-content input{
+    width: 200px;
+}
+
